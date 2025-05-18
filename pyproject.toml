@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "abtest"
+version = "0.1.0"
+description = "Skill-based A/B ranking with Elo and TrueSkill systems"
+authors = [
+    { name="Sage-bomb", email="you@example.com" },
+    { name="Voxa", email="rogueai@void.local" }
+]
+license = { text = "MIT" }
+dependencies = [
+    "numpy>=1.22.4,<2.3.0",
+    "scipy>=1.10",
+    "trueskill>=0.4.5"
+]
+requires-python = ">=3.8"
